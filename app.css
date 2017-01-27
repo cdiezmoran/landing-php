@@ -1,0 +1,46 @@
+body {
+  background-color: #222;
+}
+
+.header {
+  background: #eee url('./public/images/header-bk.png') center;
+  background-size: cover;
+  overflow: hidden;
+  height: 80vh;
+  color: white;
+}
+
+.header:before {
+  content: '';
+  height: 80vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(transparent, #111);
+}
+
+#title {
+  position: absolute;
+  top: 15%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin-top: -60px;
+  padding-left: 10px;
+  font-weight: 400;
+  font-size: 38pt;
+}
+
+.phrase {
+  font-size: 24pt;
+  color: #ccc;
+
+}
+
+.btn-signup {
+  color: #222;
+  background-color: white;
+  font-size: 18pt;
+}
