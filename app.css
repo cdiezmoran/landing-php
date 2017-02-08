@@ -4,24 +4,15 @@ body {
 }
 
 .header {
-  background: #eee url('./public/images/circuitTopBG.png') center;
+  background: #eee url('./public/images/circuitTopBG.png') center no-repeat;
   background-attachment: fixed;
-  background-size: contain;;
+  background-size: cover;;
   overflow: hidden;
   height: 80vh;
   color: white;
 }
 
-.header:before {
-  content: '';
-  height: 80vh;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-image: linear-gradient(transparent, rgba(17, 17, 17, 0.6));
-}
+
 
 #title {
   position: absolute;

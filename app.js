@@ -4,7 +4,7 @@ $(function () {
 
     if ($btn.hasClass('green')) {
       $btn.removeClass('green');
-      $btn.text('Sign up to build awesome games')
+      $btn.text('Sign up to launch awesome games')
       return
     }
 
